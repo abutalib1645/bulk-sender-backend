@@ -1,0 +1,18 @@
+{
+  "name": "bulk-sender-backend",
+  "version": "1.0.0",
+  "description": "SMTP bulk email sender backend with Express and Nodemailer",
+  "main": "send-bulk.js",
+  "scripts": {
+    "start": "node send-bulk.js"
+  },
+  "keywords": ["smtp", "nodemailer", "bulk", "email", "sender"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8"
+  }
+}
